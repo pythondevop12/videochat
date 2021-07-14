@@ -1,0 +1,38 @@
+{
+  "name": "livestream-server",
+  "version": "0.0.1",
+  "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.11.13",
+    "serve-favicon": "^2.5.0",
+    "simple-node-logger": "^18.12.24",
+    "socket.io": "^2.4.1",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon -e, js, hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsanni/livestream-server.git"
+  },
+  "keywords": [
+    "LiveStream",
+    "Server"
+  ],
+  "author": "Amir Sanni <amirsanni@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirsanni/livestream-server/issues"
+  },
+  "homepage": "https://github.com/amirsanni/livestream-server#readme"
+}
